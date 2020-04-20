@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import mountains from "./mountains.jpg";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   const [page, setPage] = useState("home");
@@ -30,6 +31,7 @@ function App() {
         pageContact={pageContact}
       />
       {page === "home" && <Home />}
+      <Footer />
     </main>
   );
 }

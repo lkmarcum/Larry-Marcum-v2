@@ -3,7 +3,7 @@ import "./header.scss";
 import cubes from "../cubes.png";
 
 function Header(props) {
-  console.log("header props: ", props);
+  // console.log("header props: ", props);
   return (
     <div className="header">
       <div className="logo-container">
