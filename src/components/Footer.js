@@ -30,6 +30,12 @@ function Footer() {
           CSS3<i class="fab fa-css3-alt"></i>
         </div>
         <div>
+          Java<i class="fab fa-java"></i>
+        </div>
+        <div>
+          Python<i class="fab fa-python"></i>
+        </div>
+        <div>
           GitHub<i class="fab fa-github-square"></i>
         </div>
       </div>

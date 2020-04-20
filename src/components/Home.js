@@ -16,7 +16,7 @@ function Home(props) {
       <button className="red-button">
         See my work &nbsp; &nbsp; &nbsp; &nbsp; &rsaquo;
       </button>
-      <button>Contact me &nbsp; &nbsp; &nbsp; &nbsp; &rsaquo;</button>
+      <button>Contact me &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &rsaquo;</button>
     </div>
   );
 }

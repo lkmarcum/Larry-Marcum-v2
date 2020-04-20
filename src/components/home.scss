@@ -28,9 +28,14 @@
 
   button:hover {
     cursor: pointer;
+    background: rgb(173, 173, 173);
   }
 
   .red-button {
     background: rgb(160, 14, 14);
+
+    &:hover {
+      background: rgb(233, 24, 24);
+    }
   }
 }
