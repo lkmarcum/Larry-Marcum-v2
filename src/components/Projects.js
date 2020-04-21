@@ -80,7 +80,10 @@ function Projects(props) {
           <a href="https://diy-tracker-marketing.netlify.app/" target="_blank">
             <button>Visit the site</button>
           </a>
-          <a href="https://github.com/DIY-Tracker" target="_blank">
+          <a
+            href="https://github.com/DIY-Tracker/Backend-Developer"
+            target="_blank"
+          >
             <button>View the code</button>
           </a>
         </div>
