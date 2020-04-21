@@ -13,10 +13,12 @@ function Home(props) {
         cross-functional teams, and I live to seek out opportunities to improve
         my craft.
       </p>
-      <button className="red-button">
+      <button className="red-button" onClick={props.pageProjects}>
         See my work &nbsp; &nbsp; &nbsp; &nbsp; &rsaquo;
       </button>
-      <button>Contact me &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &rsaquo;</button>
+      <button onClick={props.pageContact}>
+        Contact me &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &rsaquo;
+      </button>
     </div>
   );
 }

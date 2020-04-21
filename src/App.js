@@ -32,7 +32,9 @@ function App() {
         pageProjects={pageProjects}
         pageContact={pageContact}
       />
-      {page === "home" && <Home />}
+      {page === "home" && (
+        <Home pageProjects={pageProjects} pageContact={pageContact} />
+      )}
       {page === "contact" && <Contact />}
       {page === "projects" && <Projects />}
       <Footer />
