@@ -1,8 +1,18 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .home-container {
   // position: absolute;
   margin-top: 10%;
   color: white;
   margin-left: 15%;
+  animation: fadein 2s;
 
   h1 {
     font-size: 6rem;

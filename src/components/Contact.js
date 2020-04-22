@@ -33,6 +33,14 @@ function Contact(props) {
     setEmail({ name: "", email: "", message: "" });
   }
 
+  function openLink() {
+    window.open("https://www.linkedin.com/in/lkmarcum/");
+  }
+
+  function openGH() {
+    window.open("https://github.com/lkmarcum");
+  }
+
   return (
     <div className="contact-container">
       <form onSubmit={sendEmail}>
@@ -55,10 +63,10 @@ function Contact(props) {
           </div>
           <div className="contact-links">
             <div>
-              LinkedIn<i class="fab fa-linkedin"></i>
+              LinkedIn<i class="fab fa-linkedin" onClick={openLink}></i>
             </div>
             <div>
-              GitHub<i class="fab fa-github-square"></i>
+              GitHub<i class="fab fa-github-square" onClick={openGH}></i>
             </div>
           </div>
         </div>

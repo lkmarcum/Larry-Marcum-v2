@@ -37,7 +37,7 @@ function App() {
       )}
       {page === "contact" && <Contact />}
       {page === "projects" && <Projects />}
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

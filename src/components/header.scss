@@ -1,3 +1,12 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .header {
   margin-top: 20px;
   padding-top: 10px;
@@ -8,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
+  animation: fadein 2s;
   //   background: blue;
 
   .logo-container {

@@ -1,12 +1,22 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .footer-container {
   // position: absolute;
   //   margin-top: 38%;
-  position: fixed;
-  bottom: 0;
-  // margin-top: 160px;
+  // position: fixed;
+  // bottom: 0;
+  margin-top: 160px;
   color: white;
   width: 100%;
   margin-bottom: 5px;
+  animation: fadein 2s;
 
   h3 {
     text-align: center;
