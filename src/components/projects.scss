@@ -18,8 +18,21 @@
   width: 90%;
   animation: fadein 2s;
 
+  @media (max-width: 500px) {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+
   .project-container {
     width: 100%;
+
+    @media (max-width: 500px) {
+      border-bottom: 1px solid gray;
+      // margin-left: 10%;
+      padding-left: 10%;
+      padding-bottom: 10px;
+    }
 
     h3 {
       width: 80%;
@@ -69,6 +82,10 @@
       width: 80%;
       height: auto;
       border-radius: 5px;
+
+      @media (max-width: 500px) {
+        margin-top: 20px;
+      }
     }
 
     p {

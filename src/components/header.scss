@@ -19,6 +19,9 @@
   width: 90%;
   animation: fadein 2s;
   //   background: blue;
+  @media (max-width: 500px) {
+    display: block;
+  }
 
   .logo-container {
     display: flex;
@@ -63,6 +66,10 @@
     width: 400px;
     margin-right: 100px;
     // background: green;
+    @media (max-width: 500px) {
+      width: 100%;
+      margin-left: 5%;
+    }
 
     a {
       color: white;

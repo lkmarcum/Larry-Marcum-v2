@@ -18,6 +18,11 @@
     font-size: 6rem;
     font-weight: bold;
     margin-bottom: 50px;
+    @media (max-width: 500px) {
+      margin-top: 100px;
+      font-size: 4rem;
+      margin-bottom: 30px;
+    }
   }
 
   p {
@@ -25,6 +30,9 @@
     width: 80%;
     line-height: 3rem;
     margin-bottom: 25px;
+    @media (max-width: 500px) {
+      line-height: 3.5rem;
+    }
   }
 
   button {
