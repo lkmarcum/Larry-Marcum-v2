@@ -1,6 +1,6 @@
 .projects {
-  position: absolute;
-  margin-top: 130px;
+  // position: absolute;
+  margin-top: 30px;
   color: white;
   margin-left: 8%;
   display: flex;
@@ -14,8 +14,10 @@
     h3 {
       width: 80%;
       text-align: center;
-      font-size: 1.5rem;
-      margin-top: 5px;
+      font-size: 2.4rem;
+      margin-top: 10px;
+      font-weight: bold;
+      margin-bottom: 20px;
     }
 
     .project-buttons {
@@ -32,6 +34,7 @@
         background: rgb(160, 14, 14);
         color: white;
         text-align: center;
+        margin-bottom: 20px;
 
         &:hover {
           background: rgb(233, 24, 24);
@@ -60,11 +63,18 @@
 
     p {
       width: 80%;
+      font-size: 1.7rem;
+      margin-bottom: 20px;
     }
 
-    li {
-      width: 70%;
-      margin-bottom: 10px;
+    ul {
+      list-style-type: disc;
+      margin-left: 40px;
+      li {
+        width: 70%;
+        margin-bottom: 10px;
+        font-size: 1.7rem;
+      }
     }
   }
 }

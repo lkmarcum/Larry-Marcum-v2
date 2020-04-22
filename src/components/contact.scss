@@ -1,6 +1,6 @@
 .contact-container {
-  position: absolute;
-  margin-top: 250px;
+  // position: absolute;
+  margin-top: 150px;
   color: white;
   margin-left: 25%;
   width: 50%;
@@ -22,13 +22,13 @@
       flex-direction: column;
       align-items: center;
       margin-right: 50px;
-      font-size: 2rem;
+      font-size: 3rem;
 
       i {
-        font-size: 4rem;
+        font-size: 6rem;
 
         &:hover {
-          font-size: 4.4rem;
+          font-size: 6.4rem;
           cursor: pointer;
         }
       }
@@ -41,7 +41,7 @@
 
     input {
       margin-top: 20px;
-      height: 2rem;
+      height: 3rem;
       padding: 5px;
       border: none;
       border-radius: 3px;

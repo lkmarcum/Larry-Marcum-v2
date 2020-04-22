@@ -23,9 +23,9 @@ function App() {
 
   return (
     <main>
-      <div className="background-img">
+      {/* <div className="background-img">
         <img src={mountains} id="background" />
-      </div>
+      </div> */}
 
       <Header
         pageHome={pageHome}
