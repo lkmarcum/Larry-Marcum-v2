@@ -4,7 +4,7 @@
   padding-left: 10px;
   padding-bottom: 10px;
   height: 80px;
-  position: absolute;
+  // position: absolute;
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -15,6 +15,7 @@
     width: 400px;
     justify-content: space-evenly;
     margin-left: 50px;
+    // border: 1px solid white;
 
     img {
       width: 75px;
@@ -24,23 +25,24 @@
 
     p {
       color: rgb(194, 28, 28);
-      font-size: 4rem;
+      font-size: 6rem;
       line-height: 4rem;
-      margin-top: 0;
+      margin-top: 10px;
     }
 
     .title-container {
       color: white;
 
       h3 {
-        font-size: 1.7rem;
-        margin-top: 5px;
+        font-size: 3rem;
+        margin-top: 7px;
         margin-bottom: 0;
+        font-weight: bold;
       }
 
       h5 {
         margin-top: 0;
-        font-size: 1.25rem;
+        font-size: 2rem;
       }
     }
   }
@@ -55,7 +57,7 @@
     a {
       color: white;
       text-decoration: none;
-      font-size: 1.3rem;
+      font-size: 2.1rem;
       padding-top: 30px;
 
       &:hover {
